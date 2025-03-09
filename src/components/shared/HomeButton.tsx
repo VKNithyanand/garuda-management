@@ -5,8 +5,8 @@ import { Home } from 'lucide-react';
 const HomeButton = () => {
   return (
     <motion.a
-      href="https://www.cricbuzz.com"
-      target="_blank"
+      href="https://garuda-sastra.netlify.app/"
+      target="_self"
       rel="noopener noreferrer"
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
